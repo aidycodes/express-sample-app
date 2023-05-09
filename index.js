@@ -6,10 +6,10 @@ app.get('/', (req, res) => {
 })
 
 app.get("/json", (req, res) => {
-    res.json({"Choo Choo": "Welcome to your Express app 🚅"});
+    res.json({"Choo Choo": "Welcome to your Express app!!! 🚅"});
 })
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
